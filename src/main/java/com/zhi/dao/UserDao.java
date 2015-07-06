@@ -7,5 +7,5 @@ import com.zhi.entity.User;
  */
 public interface UserDao {
     int login(User user);
-    boolean register(User user);
+    int register(User user);
 }
