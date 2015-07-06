@@ -3,8 +3,6 @@ package com.zhi.entity;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import javax.xml.ws.handler.MessageContext;
-
 /**
  * Created by paul on 2015/6/29.
  */
@@ -47,4 +45,7 @@ public class User {
                 ", password='" + password + '\'' +
                 '}';
     }
+
+//    public
+
 }
