@@ -8,6 +8,14 @@
 
 <!--<web-app>-->
   <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>DoAjaxServlet</servlet-name>
+        <servlet-class>com.zhi.servlet.DoAjaxServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoAjaxServlet</servlet-name>
+        <url-pattern>/validate.do</url-pattern>
+    </servlet-mapping>
 
     <servlet>
         <servlet-name>dispatcher</servlet-name>
